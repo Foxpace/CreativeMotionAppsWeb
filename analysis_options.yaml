@@ -1,0 +1,32 @@
+include: package:lint/analysis_options.yaml
+
+linter:
+  rules:
+    sort_constructors_first: true
+    file_names: false
+    sort_pub_dependencies: true
+    prefer_final_fields: true
+    prefer_if_null_operators: true
+    prefer_foreach: true
+    prefer_inlined_adds: true
+    public_member_api_docs: true
+    always_use_package_imports: true
+    always_put_required_named_parameters_first: false
+    always_specify_types: true
+    always_declare_return_types: true
+    always_require_non_null_named_parameters: false
+    lines_longer_than_80_chars: true
+    avoid_annotating_with_dynamic: true
+    avoid_empty_else: true
+    avoid_multiple_declarations_per_line: true
+    avoid_web_libraries_in_flutter: true
+    avoid_unnecessary_containers: true
+    avoid_unused_constructor_parameters: true
+    avoid_relative_lib_imports: true
+    avoid_classes_with_only_static_members: true
+    overridden_fields: false
+    no_logic_in_create_state: false
+    avoid_positional_boolean_parameters: false
+    constant_identifier_names: true
+    avoid_field_initializers_in_const_classes: false
+    no_adjacent_strings_in_list: false
